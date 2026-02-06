@@ -21,6 +21,10 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
+          extended: true
+      
+      - name: Init Hugo Modules
+        run: hugo mod tidy
 
       - name: Build
         run: hugo --minify
