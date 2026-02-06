@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl      = "https://allnicevivi.github.io/"
+baseurl      = "https://allnicevivi.github.io/my-hugo-blog/"
 languageCode = "en-us"
 title        = "Vivi's Space"
 
