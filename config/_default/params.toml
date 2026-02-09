@@ -1,8 +1,8 @@
 # Pages placed under these sections will be shown on homepage and archive page.
-mainSections = ["post"]
+mainSections = ["post", "yoga", "reflection", "cooking", "arch_and_ai"]
 # Output page's full content in RSS.
 rssFullContent = true
-favicon        = "img/monkey3_1.png"
+favicon        = "img/pig2.png"
 
 # Accepted values: "default", "lastmod"
 # default = see https://gohugo.io/quick-reference/glossary/#default-sort-order
@@ -10,7 +10,7 @@ favicon        = "img/monkey3_1.png"
 SortBy              = "default"
 
 [footer]
-    since      = 2020
+    since      = 2026
     customText = ""
 
 [dateFormat]
@@ -18,9 +18,8 @@ SortBy              = "default"
     lastUpdated = ":date_full"
 
 [sidebar]
-    emoji    = "🍥"
-    subtitle = "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    avatar   = "img/monkey1_1.png"
+    subtitle = "Record. Learn. Experience."
+    avatar   = "img/pig.png"
 
 [article]
     headingAnchor = false
@@ -34,9 +33,9 @@ SortBy              = "default"
 [widgets]
     homepage = [
         { type = "search" },
-        { type = "archives", params = { limit = 5 } },
+        { type = "archives", params = { limit = 10 } },
         { type = "categories", params = { limit = 10 } },
-        { type = "tag-cloud", params = { limit = 10 } },
+        { type = "tag-cloud", params = { limit = 50 } },
     ]
     page = [{ type = "toc" }]
 

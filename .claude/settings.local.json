@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(hugo list:*)",
+      "Bash(hugo:*)",
+      "Bash(find:*)",
+      "Bash(grep -o class=\"\"menu\"\"[^)",
+      "Bash(]*)",
+      "Bash(.*search.*)",
+      "Bash(/Users/viviliu/Documents/10_Vivi/my-hugo-blog/public/arch_and_ai/index.html)"
+    ]
+  }
+}

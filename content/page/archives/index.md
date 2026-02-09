@@ -1,11 +1,11 @@
 ---
 title: "Archives"
-date: 2022-03-06
+date: 2026-02-08
 layout: "archives"
 slug: "archives"
 menu:
     main:
-        weight: 2
+        weight: 6
         params: 
             icon: archives
 ---
